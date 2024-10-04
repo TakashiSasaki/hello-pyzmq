@@ -1,0 +1,4 @@
+certs/client.key
+certs/server.key
+certs/client.key_secret
+certs/server.key_secret

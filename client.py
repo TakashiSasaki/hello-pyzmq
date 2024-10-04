@@ -9,4 +9,4 @@ socket.setsockopt_string(zmq.SUBSCRIBE, "")  # すべてのメッセージを購
 
 while True:
     message = socket.recv_string()
-    print(f"Received: {message}")
+    print(f"[CLIENT] Received: {message}")

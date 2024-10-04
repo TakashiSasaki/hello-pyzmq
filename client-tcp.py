@@ -1,4 +1,4 @@
-# client.py
+# client-tcp.py
 import zmq
 
 context = zmq.Context()

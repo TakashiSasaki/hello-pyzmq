@@ -1,13 +1,13 @@
-# demo.py
+# demo-tcp.py
 import subprocess
 import time
 
 # サーバープロセスを起動
-server_process = subprocess.Popen(["python", "server.py"])
+server_process = subprocess.Popen(["python", "server-tcp.py"])
 time.sleep(1)  # サーバーの準備時間
 
 # クライアントプロセスを起動
-client_process = subprocess.Popen(["python", "client.py"])
+client_process = subprocess.Popen(["python", "client-tcp.py"])
 
 # プロセスの終了を待つ
 try:
